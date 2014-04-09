@@ -1,4 +1,6 @@
-# Node/Express/Mongo/Connect Base app
+# MEAN Base app
+
+Mongo Express Angular Node
 
 This is a quick repo to get you up and running with node and express 4.0 with connect middleware and mongoose to connect to mongo db. The client app is using angular and bootstrap, both being served over CDN so the files are not in this repo. All that is required besides this is node installed and mongo installed and running on localhost. You can edit the mongo connection string in the database.js file found in the config folder.
 
