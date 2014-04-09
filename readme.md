@@ -30,8 +30,8 @@ This is a quick repo to get you up and running with node and express 4.0 with co
 
 ## Running
 
-1) Make sure you have mongo running locally. If you dont the comment out the mongoose connection stuff in server.js
-2) `npm start`
+1. Make sure you have mongo running locally. If you dont the comment out the mongoose connection stuff in server.js
+2. `npm start`
 
 `npm start` will run nodemon, if you dont have it installed globally then you can do so via
 
