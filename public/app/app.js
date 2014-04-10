@@ -1,4 +1,4 @@
-var myApp = angular.module('myApp', [])
+var app = angular.module('app', [])
 	.config(function($routeProvider) {
 			$routeProvider
 			.when('/', {
@@ -7,6 +7,6 @@ var myApp = angular.module('myApp', [])
 			});
 	});
 
-myApp.controller('MainCtrl', function($scope) {
+app.controller('MainCtrl', function($scope) {
 	$scope.message = 'Welcome to myApp!';
 });
