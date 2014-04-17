@@ -6,7 +6,3 @@ var app = angular.module('app', [])
 				controller: 'MainCtrl'
 			});
 	});
-
-app.controller('MainCtrl', function($scope) {
-	$scope.message = 'Welcome to myApp!';
-});
